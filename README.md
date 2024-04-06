@@ -1,13 +1,13 @@
 # Randoms_personal_code_snippets
 Hello there,
-This repository consists of random code snippets for tasks and calcultaions I find dreadful.
+This repository consists of random code snippets for tasks and calculations I find dreadful.
 Think of it as a programmer's notebook filled with random experiments and solutions to make 
 life easier.
 
 Here's a sneak peek at what you might find:
-1. Tahajjud Time Calculator: No more manual calculations (when the last third of the night
-                             starts) for those pre-dawn prayers!
-2.
+1. Tahajjud Time Calculator (in the 24-hour system): No more manual calculations (when the last third
+                                                     of the night dawn prayers!
+3.
 
 This repository is a work in progress, so expect new code snippets to pop up as I explore 
 and automate more stuff. Feel free to browse around and see if anything tickles your fancy!
