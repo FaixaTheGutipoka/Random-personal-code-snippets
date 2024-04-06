@@ -1,0 +1,18 @@
+import math
+start_time = list(map(int, input("Maghrib starts at (don't write AM/PM): ").split(":")))
+end_time = list(map(int, input("Fazr starts at (don't write AM/PM): ").split(":")))
+
+h1 = start_time[0]
+h2 = end_time[0]
+m1 = start_time[1]
+m2 = end_time[1]
+
+b_mn = abs(12-h1-1)*60+abs(60-m1)
+a_mn = h2*60+m2
+t_t = b_mn+a_mn
+third_in_minutes = round(t_t/3)
+t_h = (a_mn - third_in_minutes)//60
+t_m = (a_mn - third_in_minutes)%60
+s1=":"
+s2="AM"
+print("The best time for tahajjud is: ", f"{t_h:02d}{s1}{t_m:02d} {s2}")
