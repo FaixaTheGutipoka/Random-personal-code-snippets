@@ -14,5 +14,4 @@ third_in_minutes = round(t_t/3)
 t_h = (a_mn - third_in_minutes)//60
 t_m = (a_mn - third_in_minutes)%60
 s1=":"
-s2="AM"
-print("The best time for tahajjud is: ", f"{t_h:02d}{s1}{t_m:02d} {s2}")
+print("The best time for tahajjud is: ", f"{t_h:02d}{s1}{t_m:02d}")
